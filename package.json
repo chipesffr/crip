@@ -5,11 +5,18 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "production": "vue-cli-service serve --mode production",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.26.1",
+    "bootstrap": "^4.6.1",
+    "bootstrap-vue": "^2.21.2",
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "sweetalert2": "^11.4.8",
+    "vue": "^2.6.14",
+    "vue-autosuggest": "^2.2.0",
+    "vue-cryptocurrency-icons": "^0.2.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
